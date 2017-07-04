@@ -1,13 +1,9 @@
 package lt_hamburg.segmenter.annotator;
 
-import de.tudarmstadt.lt.seg.Segment;
 import de.tudarmstadt.lt.seg.SegmentType;
-import de.tudarmstadt.lt.seg.sentence.ISentenceSplitter;
 import de.tudarmstadt.lt.seg.sentence.RuleSplitter;
-import de.tudarmstadt.lt.seg.token.ITokenizer;
 import de.tudarmstadt.lt.seg.token.RuleTokenizer;
 import lt_hamburg.segmenter.type.Token;
-import org.apache.uima.UIMAFramework;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
