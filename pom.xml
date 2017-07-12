@@ -36,6 +36,14 @@
             <systemPath>${basedir}/lib/lt.seg-0.7.1a.jar</systemPath>
         </dependency>
 
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
 
     <build>
