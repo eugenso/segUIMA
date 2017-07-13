@@ -44,8 +44,6 @@ public class TokenAnnotator extends JCasAnnotator_ImplBase {
                     tok.init(s.asString()).stream()
                             .filter(t -> t.isReadable())
                             .forEach(t -> {
-                                System.out.println(t.asString() + "\t" + t.type);
-                                //System.out.println(aJCas.getDocumentText().substring(s.begin + t.begin, s.begin + t.end));
                                 addToken(aJCas, t.begin, t.end, t.type.name());
                             });
                 });
